@@ -1,0 +1,7 @@
+2025-06-28T16:11:01.339+08:00  INFO 30424 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-28T16:11:01.341+08:00  INFO 30424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-28T16:11:01.342+08:00  INFO 30424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-28T16:11:01.367+08:00  INFO 30424 --- [http-nio-8080-exec-1] c.blog_system.controller.UserController  : 用户登录，用户名：123，密码：123
+2025-06-28T16:11:01.380+08:00  INFO 30424 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-28T16:11:01.493+08:00  INFO 30424 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b24485c
+2025-06-28T16:11:01.495+08:00  INFO 30424 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

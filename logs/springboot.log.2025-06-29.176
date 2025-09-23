@@ -1,0 +1,7 @@
+2025-06-29T20:56:06.937+08:00 ERROR 14804 --- [http-nio-8080-exec-3] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T20:56:06.935+08:00  INFO 14804 --- [http-nio-8080-exec-4] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-29T20:56:08.420+08:00  INFO 14804 --- [http-nio-8080-exec-6] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T20:56:08.422+08:00 ERROR 14804 --- [http-nio-8080-exec-6] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T20:56:09.419+08:00  INFO 14804 --- [http-nio-8080-exec-5] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTIwNTM2Mn0.YbLMMrc6Ese2h-fWzuGoZ1bpAH4cNHhnKK0rDbZ7nN4
+2025-06-29T20:56:09.421+08:00  INFO 14804 --- [http-nio-8080-exec-7] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T20:56:09.422+08:00 ERROR 14804 --- [http-nio-8080-exec-7] com.blog_system.utils.JwtUtils           : 解析token失败，token：null

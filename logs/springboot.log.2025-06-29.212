@@ -1,0 +1,6 @@
+2025-06-29T22:07:15.257+08:00  INFO 11144 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-29T22:07:15.438+08:00  INFO 11144 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@332c19e2
+2025-06-29T22:07:15.441+08:00  INFO 11144 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-29T22:07:15.609+08:00  INFO 11144 --- [http-nio-8080-exec-5] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTIwODc5OX0.qtunyE-3JN65roa9Yj-1_gBmcqEy7Ksd1aOfPAlknxM
+2025-06-29T22:07:15.609+08:00  INFO 11144 --- [http-nio-8080-exec-6] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTIwODc5OX0.qtunyE-3JN65roa9Yj-1_gBmcqEy7Ksd1aOfPAlknxM
+2025-06-29T22:07:15.613+08:00  INFO 11144 --- [http-nio-8080-exec-7] c.b.interceptor.LogInInterceptor         : 从header中获取token:null

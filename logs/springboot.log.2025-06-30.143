@@ -1,0 +1,7 @@
+2025-06-30T14:50:11.697+08:00  INFO 2116 --- [http-nio-8080-exec-6] c.blog_system.controller.UserController  : 获取登录用户信息
+2025-06-30T14:50:11.703+08:00  INFO 2116 --- [http-nio-8080-exec-7] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T14:50:11.704+08:00 ERROR 2116 --- [http-nio-8080-exec-7] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T14:50:15.779+08:00  INFO 2116 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-30T14:50:16.619+08:00  INFO 2116 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-30T14:50:16.628+08:00  INFO 2116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-30T14:50:16.635+08:00  INFO 2116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

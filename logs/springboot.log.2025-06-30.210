@@ -1,0 +1,8 @@
+2025-06-30T15:32:45.671+08:00  INFO 22764 --- [http-nio-8080-exec-9] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T15:32:45.671+08:00  INFO 22764 --- [http-nio-8080-exec-8] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-30T15:32:45.674+08:00 ERROR 22764 --- [http-nio-8080-exec-9] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T15:32:47.076+08:00  INFO 22764 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T15:32:47.077+08:00 ERROR 22764 --- [http-nio-8080-exec-1] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T15:32:47.528+08:00  INFO 22764 --- [http-nio-8080-exec-10] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T15:32:47.535+08:00 ERROR 22764 --- [http-nio-8080-exec-10] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T17:01:52.376+08:00  INFO 22764 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

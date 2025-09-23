@@ -1,0 +1,8 @@
+2025-06-29T17:40:12.319+08:00  INFO 28328 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-29T17:40:13.020+08:00  INFO 28328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-29T17:40:13.029+08:00  INFO 28328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-29T17:40:13.029+08:00  INFO 28328 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-29T17:40:13.071+08:00  INFO 28328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-29T17:40:13.071+08:00  INFO 28328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 712 ms
+2025-06-29T17:40:13.442+08:00  INFO 28328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-29T17:40:13.447+08:00  INFO 28328 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.522 seconds (process running for 2.03)

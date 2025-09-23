@@ -1,0 +1,6 @@
+2025-06-28T11:49:12.206+08:00  INFO 8536 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-28T11:49:17.091+08:00  INFO 8536 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-28T11:49:17.594+08:00  INFO 8536 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-28T11:49:17.597+08:00  INFO 8536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-28T11:49:17.604+08:00  INFO 8536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-28T11:56:39.445+08:00  INFO 30536 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 30536 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

@@ -1,0 +1,3 @@
+2025-06-29T22:47:42.401+08:00  INFO 3036 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-29T22:47:42.407+08:00  INFO 3036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-29T22:47:42.409+08:00  INFO 3036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

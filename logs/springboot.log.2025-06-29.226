@@ -1,0 +1,7 @@
+2025-06-29T22:12:59.205+08:00  INFO 3036 --- [http-nio-8080-exec-6] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTIwOTk3OX0.fzwBOkrpH4pQSNMd_Qzris3AWeO8yMBcRWLkOGxhXaE
+2025-06-29T22:12:59.208+08:00  INFO 3036 --- [http-nio-8080-exec-5] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T22:12:59.210+08:00 ERROR 3036 --- [http-nio-8080-exec-5] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T22:12:59.211+08:00  INFO 3036 --- [http-nio-8080-exec-6] c.blog_system.controller.UserController  : 获取登录用户信息
+2025-06-29T22:13:06.821+08:00  INFO 3036 --- [http-nio-8080-exec-10] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T22:13:06.824+08:00 ERROR 3036 --- [http-nio-8080-exec-10] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T22:47:41.535+08:00  INFO 3036 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

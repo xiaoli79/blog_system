@@ -1,0 +1,7 @@
+2025-06-28T17:02:14.714+08:00  INFO 5592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-28T17:02:14.728+08:00  INFO 5592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-28T17:02:14.729+08:00  INFO 5592 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-28T17:02:14.772+08:00  INFO 5592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-28T17:02:14.773+08:00  INFO 5592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 751 ms
+2025-06-28T17:02:15.212+08:00  INFO 5592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-28T17:02:15.224+08:00  INFO 5592 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.653 seconds (process running for 2.174)

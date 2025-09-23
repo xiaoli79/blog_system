@@ -1,0 +1,6 @@
+2025-06-29T20:53:18.960+08:00 ERROR 36140 --- [http-nio-8080-exec-1] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T20:53:18.959+08:00  INFO 36140 --- [http-nio-8080-exec-10] c.blog_system.controller.UserController  : 获取登录用户信息
+2025-06-29T20:53:19.105+08:00  INFO 36140 --- [http-nio-8080-exec-6] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTIwNTE5M30.U9vUjTkGvKRoUJnj8lOMkofvoJxKYbbKtztdNTu4JC8
+2025-06-29T20:53:19.105+08:00  INFO 36140 --- [http-nio-8080-exec-8] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTIwNTE5M30.U9vUjTkGvKRoUJnj8lOMkofvoJxKYbbKtztdNTu4JC8
+2025-06-29T20:53:19.108+08:00  INFO 36140 --- [http-nio-8080-exec-6] c.blog_system.controller.UserController  : 获取登录用户信息
+2025-06-29T20:53:19.109+08:00  INFO 36140 --- [http-nio-8080-exec-4] c.b.interceptor.LogInInterceptor         : 从header中获取token:null

@@ -1,0 +1,7 @@
+2025-06-27T21:25:42.330+08:00  INFO 8580 --- [main] c.blog_system.mapper.UserInfoMapperTest  : Started UserInfoMapperTest in 2.289 seconds (process running for 3.457)
+2025-06-27T21:25:43.433+08:00  INFO 8580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-27T21:25:43.620+08:00  INFO 8580 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7742a276
+2025-06-27T21:25:43.624+08:00  INFO 8580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-27T21:25:43.867+08:00  INFO 8580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-27T21:25:43.881+08:00  INFO 8580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-27T21:26:34.513+08:00  INFO 9460 --- [main] c.blog_system.mapper.UserInfoMapperTest  : Starting UserInfoMapperTest using Java 17.0.12 with PID 9460 (started by HP in E:\Javauploaded\Spring\blog_system)

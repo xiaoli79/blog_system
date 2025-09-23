@@ -1,0 +1,7 @@
+2025-06-29T18:23:26.696+08:00  INFO 7276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2025-06-29T18:23:27.168+08:00  INFO 7276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-29T18:23:27.175+08:00  INFO 7276 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.756 seconds (process running for 2.25)
+2025-06-29T18:23:33.471+08:00  INFO 7276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-29T18:23:33.471+08:00  INFO 7276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-29T18:23:33.476+08:00  INFO 7276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-29T18:23:33.495+08:00  INFO 7276 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:null

@@ -1,0 +1,17 @@
+server:
+  port: 12345
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/java_blog_spring?characterEncoding=utf8&useSSL=false
+    username: root
+    password: Ab31351.
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #配置驼峰自动转换
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印sql语句
+  mapper-locations: classpath:mapper/**Mapper.xml
+# 设置日志文件的文件名
+logging:
+  file:
+    name: spring-blog.log

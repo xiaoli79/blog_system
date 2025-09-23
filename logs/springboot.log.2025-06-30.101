@@ -1,0 +1,6 @@
+2025-06-30T14:34:04.633+08:00  INFO 4040 --- [http-nio-8080-exec-10] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T14:34:04.637+08:00 ERROR 4040 --- [http-nio-8080-exec-10] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T14:34:11.636+08:00  INFO 4040 --- [http-nio-8080-exec-2] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2ODcxM30.FlgikD1UyEYYKQBSqdivKsR1BvXcVZ7l33j7mFKfUQM
+2025-06-30T14:34:11.648+08:00  INFO 4040 --- [http-nio-8080-exec-5] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2ODcxM30.FlgikD1UyEYYKQBSqdivKsR1BvXcVZ7l33j7mFKfUQM
+2025-06-30T14:34:11.653+08:00  INFO 4040 --- [http-nio-8080-exec-5] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-30T14:34:11.656+08:00  INFO 4040 --- [http-nio-8080-exec-4] c.b.interceptor.LogInInterceptor         : 从header中获取token:null

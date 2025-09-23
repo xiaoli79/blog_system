@@ -1,0 +1,6 @@
+2025-06-30T12:23:43.513+08:00  INFO 12232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-30T12:23:43.677+08:00  INFO 12232 --- [http-nio-8080-exec-5] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MDY4MX0.zJtHqfub6Q6NE7ICbmKPxTtQUaWYRgj-2x91COEB1oA
+2025-06-30T12:23:43.677+08:00  INFO 12232 --- [http-nio-8080-exec-7] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MDY4MX0.zJtHqfub6Q6NE7ICbmKPxTtQUaWYRgj-2x91COEB1oA
+2025-06-30T12:23:43.678+08:00  INFO 12232 --- [http-nio-8080-exec-4] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T12:23:43.702+08:00 ERROR 12232 --- [http-nio-8080-exec-4] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T12:23:43.747+08:00  INFO 12232 --- [http-nio-8080-exec-7] c.blog_system.controller.UserController  : 根据博客ID获取作者ID

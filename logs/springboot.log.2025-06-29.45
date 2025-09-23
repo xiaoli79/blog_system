@@ -1,0 +1,7 @@
+2025-06-29T18:21:25.039+08:00  INFO 31352 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-29T18:21:25.087+08:00  INFO 31352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-29T18:21:25.087+08:00  INFO 31352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 738 ms
+2025-06-29T18:21:25.482+08:00  INFO 31352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-29T18:21:25.489+08:00  INFO 31352 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.581 seconds (process running for 2.123)
+2025-06-29T18:21:30.998+08:00  INFO 31352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-29T18:21:30.998+08:00  INFO 31352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'

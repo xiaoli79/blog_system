@@ -1,0 +1,6 @@
+2025-06-30T12:16:59.535+08:00 ERROR 11708 --- [http-nio-8080-exec-7] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T12:16:59.957+08:00  INFO 11708 --- [http-nio-8080-exec-9] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MDU5Nn0.BZd8F_mXNazqmBYTIPzZ1Oes3bTc-0VbcM0GovcaNxs
+2025-06-30T12:16:59.957+08:00  INFO 11708 --- [http-nio-8080-exec-4] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MDU5Nn0.BZd8F_mXNazqmBYTIPzZ1Oes3bTc-0VbcM0GovcaNxs
+2025-06-30T12:16:59.958+08:00  INFO 11708 --- [http-nio-8080-exec-2] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T12:16:59.959+08:00  INFO 11708 --- [http-nio-8080-exec-4] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-30T12:16:59.959+08:00 ERROR 11708 --- [http-nio-8080-exec-2] com.blog_system.utils.JwtUtils           : 解析token失败，token：null

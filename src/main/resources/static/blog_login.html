@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客登陆页</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <img src="pic/logo2.jpg" alt="">
+        <span class="blog-title">我的博客系统</span>
+        <div class="space"></div>
+        <a class="nav-span" href="blog_list.html">主页</a>
+        <a class="nav-span" href="blog_edit.html">写博客</a>
+    </div>
+
+    <div class="container-login">
+        <div class="login-dialog">
+            <h3>登陆</h3>
+            <div class="row">
+                <span>用户名</span>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="row">
+                <span>密码</span>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="row">
+                <button id="submit" onclick="login()">提交</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        function login() {
+            $.ajax({
+                url:"/user/login",
+                type:"get",
+                data:{
+                    userName:$("#username").val(),
+                    password:$("#password").val()
+                },
+                success:function (result){
+                  if(result.code == "SUCCESS" && result.data != null){
+                      localStorage.setItem("user_token",result.data);
+                      location.href = "blog_list.html";
+                  }else{
+                      alert(result.errMsg);
+                  }
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

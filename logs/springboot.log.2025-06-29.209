@@ -1,0 +1,7 @@
+2025-06-29T21:53:36.319+08:00  INFO 37392 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T21:53:36.325+08:00 ERROR 37392 --- [http-nio-8080-exec-1] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T21:54:29.991+08:00  INFO 37392 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-29T21:54:30.487+08:00  INFO 37392 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-29T21:54:30.490+08:00  INFO 37392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-29T21:54:30.496+08:00  INFO 37392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-29T22:06:56.880+08:00  INFO 11144 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 11144 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

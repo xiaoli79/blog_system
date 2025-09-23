@@ -1,0 +1,6 @@
+2025-06-29T17:45:40.091+08:00  INFO 19780 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTE5MzYzM30.uSO6C7rz_J_qTNZCPX00xEiGso2ZwglYCmbx9aKQi5A
+2025-06-29T17:45:40.182+08:00  INFO 19780 --- [http-nio-8080-exec-1] c.blog_system.controller.UserController  : 获取登录用户信息
+2025-06-29T17:45:40.204+08:00  INFO 19780 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-29T17:45:40.380+08:00  INFO 19780 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71583dd0
+2025-06-29T17:45:40.382+08:00  INFO 19780 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-29T17:50:31.354+08:00  INFO 19780 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

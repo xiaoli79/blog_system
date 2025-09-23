@@ -1,0 +1,7 @@
+2025-06-30T12:05:33.424+08:00  INFO 3320 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 3320 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-30T12:05:33.431+08:00  INFO 3320 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-30T12:05:34.303+08:00  INFO 3320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-30T12:05:34.316+08:00  INFO 3320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-30T12:05:34.316+08:00  INFO 3320 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-30T12:05:34.361+08:00  INFO 3320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-30T12:05:34.362+08:00  INFO 3320 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 889 ms

@@ -1,0 +1,7 @@
+2025-06-30T15:18:38.922+08:00  INFO 10256 --- [http-nio-8080-exec-3] c.blog_system.controller.UserController  : 获取登录用户信息
+2025-06-30T15:18:38.922+08:00 ERROR 10256 --- [http-nio-8080-exec-8] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T15:19:23.354+08:00  INFO 10256 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-30T15:19:23.805+08:00  INFO 10256 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-30T15:19:23.808+08:00  INFO 10256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-30T15:19:23.813+08:00  INFO 10256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-30T15:20:07.301+08:00  INFO 9940 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 9940 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

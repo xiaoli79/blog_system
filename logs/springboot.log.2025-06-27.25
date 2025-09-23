@@ -1,0 +1,7 @@
+2025-06-27T21:35:33.805+08:00  INFO 30148 --- [main] com.blog_system.mapper.BlogMapperTest    : Started BlogMapperTest in 2.125 seconds (process running for 3.163)
+2025-06-27T21:36:31.818+08:00  INFO 29144 --- [main] com.blog_system.mapper.BlogMapperTest    : Starting BlogMapperTest using Java 17.0.12 with PID 29144 (started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-27T21:36:31.820+08:00  INFO 29144 --- [main] com.blog_system.mapper.BlogMapperTest    : The following 1 profile is active: "dev"
+2025-06-27T21:36:33.599+08:00  INFO 29144 --- [main] com.blog_system.mapper.BlogMapperTest    : Started BlogMapperTest in 2.28 seconds (process running for 3.491)
+2025-06-27T21:37:04.313+08:00  INFO 11588 --- [main] com.blog_system.mapper.BlogMapperTest    : Starting BlogMapperTest using Java 17.0.12 with PID 11588 (started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-27T21:37:04.317+08:00  INFO 11588 --- [main] com.blog_system.mapper.BlogMapperTest    : The following 1 profile is active: "dev"
+2025-06-27T21:37:06.224+08:00  INFO 11588 --- [main] com.blog_system.mapper.BlogMapperTest    : Started BlogMapperTest in 2.361 seconds (process running for 3.451)

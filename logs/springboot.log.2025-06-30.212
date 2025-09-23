@@ -1,0 +1,7 @@
+2025-06-30T17:09:33.469+08:00  INFO 20348 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-30T17:09:33.520+08:00  INFO 20348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-30T17:09:33.520+08:00  INFO 20348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 742 ms
+2025-06-30T17:09:33.926+08:00  INFO 20348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-30T17:09:33.932+08:00  INFO 20348 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.609 seconds (process running for 2.124)
+2025-06-30T17:10:32.022+08:00  INFO 20348 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-30T17:10:32.798+08:00  INFO 20348 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

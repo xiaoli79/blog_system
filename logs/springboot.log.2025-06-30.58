@@ -1,0 +1,7 @@
+2025-06-30T12:22:18.847+08:00  INFO 3760 --- [http-nio-8080-exec-2] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-30T12:22:18.852+08:00  INFO 3760 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T12:22:18.854+08:00 ERROR 3760 --- [http-nio-8080-exec-1] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T12:22:45.160+08:00  INFO 3760 --- [http-nio-8080-exec-9] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI1OTk1N30.rbrpRN3du0qylPSAIdtIVu-IGQdbBYPKfF5p8fgrcq8
+2025-06-30T12:22:50.023+08:00  INFO 3760 --- [http-nio-8080-exec-10] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T12:22:50.024+08:00 ERROR 3760 --- [http-nio-8080-exec-10] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T12:23:24.907+08:00  INFO 3760 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

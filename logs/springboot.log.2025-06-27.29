@@ -1,0 +1,7 @@
+2025-06-27T21:40:10.114+08:00  INFO 27704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-27T21:40:10.334+08:00  INFO 27704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-27T21:40:10.361+08:00  INFO 27704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-27T21:41:36.129+08:00  INFO 1804 --- [main] com.blog_system.mapper.BlogMapperTest    : Starting BlogMapperTest using Java 17.0.12 with PID 1804 (started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-27T21:41:36.131+08:00  INFO 1804 --- [main] com.blog_system.mapper.BlogMapperTest    : The following 1 profile is active: "dev"
+2025-06-27T21:41:38.062+08:00  INFO 1804 --- [main] com.blog_system.mapper.BlogMapperTest    : Started BlogMapperTest in 2.384 seconds (process running for 3.556)
+2025-06-27T21:41:39.314+08:00  INFO 1804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...

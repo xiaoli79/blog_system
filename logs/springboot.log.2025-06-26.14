@@ -1,0 +1,7 @@
+2025-06-26T23:52:01.007+08:00  INFO 17312 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-26T23:52:01.012+08:00  INFO 17312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-26T23:52:01.017+08:00  INFO 17312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-26T23:55:12.989+08:00  INFO 17700 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 17700 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-26T23:55:12.992+08:00  INFO 17700 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-26T23:55:13.681+08:00  INFO 17700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-26T23:55:13.692+08:00  INFO 17700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]

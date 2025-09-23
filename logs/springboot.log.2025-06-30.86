@@ -1,0 +1,7 @@
+2025-06-30T12:28:29.960+08:00  INFO 19752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-30T14:31:36.880+08:00  INFO 5952 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 5952 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-30T14:31:36.882+08:00  INFO 5952 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-30T14:31:37.668+08:00  INFO 5952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-30T14:31:37.683+08:00  INFO 5952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-30T14:31:37.689+08:00  INFO 5952 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-30T14:31:37.733+08:00  INFO 5952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext

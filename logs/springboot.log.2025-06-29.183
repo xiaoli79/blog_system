@@ -1,0 +1,6 @@
+2025-06-29T20:58:31.590+08:00  INFO 14804 --- [http-nio-8080-exec-2] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-29T21:09:47.356+08:00  INFO 14804 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-29T21:09:47.835+08:00  INFO 14804 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-29T21:09:47.837+08:00  INFO 14804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-29T21:09:47.842+08:00  INFO 14804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-29T21:22:44.677+08:00  INFO 21348 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 21348 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

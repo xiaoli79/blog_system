@@ -1,0 +1,7 @@
+2025-06-27T21:41:39.448+08:00  INFO 1804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@714bffd5
+2025-06-27T21:41:39.460+08:00  INFO 1804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-27T21:41:39.669+08:00  INFO 1804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-27T21:41:39.706+08:00  INFO 1804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-27T21:43:06.096+08:00  INFO 29584 --- [main] com.blog_system.mapper.BlogMapperTest    : Starting BlogMapperTest using Java 17.0.12 with PID 29584 (started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-27T21:43:06.099+08:00  INFO 29584 --- [main] com.blog_system.mapper.BlogMapperTest    : The following 1 profile is active: "dev"
+2025-06-27T21:43:07.819+08:00  INFO 29584 --- [main] com.blog_system.mapper.BlogMapperTest    : Started BlogMapperTest in 2.152 seconds (process running for 3.195)

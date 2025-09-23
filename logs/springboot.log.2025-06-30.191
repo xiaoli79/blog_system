@@ -1,0 +1,7 @@
+2025-06-30T15:31:13.979+08:00  INFO 22764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-30T15:31:13.988+08:00  INFO 22764 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.638 seconds (process running for 2.15)
+2025-06-30T15:31:20.757+08:00  INFO 22764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-30T15:31:20.757+08:00  INFO 22764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-30T15:31:20.758+08:00  INFO 22764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-30T15:31:20.984+08:00  INFO 22764 --- [http-nio-8080-exec-5] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2OTgxMX0.L3eIcP8I6oxZgH3uKprrngCu80Jj6u384Cd5IG65pjU
+2025-06-30T15:31:20.984+08:00  INFO 22764 --- [http-nio-8080-exec-7] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2OTgxMX0.L3eIcP8I6oxZgH3uKprrngCu80Jj6u384Cd5IG65pjU

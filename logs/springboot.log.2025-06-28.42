@@ -1,0 +1,7 @@
+2025-06-28T11:39:24.114+08:00  INFO 36028 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 36028 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-28T11:39:24.119+08:00  INFO 36028 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-28T11:39:24.778+08:00  INFO 36028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-28T11:39:24.787+08:00  INFO 36028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-28T11:39:24.787+08:00  INFO 36028 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-28T11:39:24.831+08:00  INFO 36028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-28T11:39:24.833+08:00  INFO 36028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 672 ms

@@ -1,0 +1,5 @@
+2025-06-30T14:51:14.818+08:00  INFO 21512 --- [http-nio-8080-exec-10] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-30T14:51:16.843+08:00  INFO 21512 --- [http-nio-8080-exec-3] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2OTgxMX0.L3eIcP8I6oxZgH3uKprrngCu80Jj6u384Cd5IG65pjU
+2025-06-30T14:51:16.845+08:00  INFO 21512 --- [http-nio-8080-exec-3] c.blog_system.controller.BlogController  : 删除博客
+2025-06-30T14:51:16.965+08:00  INFO 21512 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2OTgxMX0.L3eIcP8I6oxZgH3uKprrngCu80Jj6u384Cd5IG65pjU
+2025-06-30T14:51:16.965+08:00  INFO 21512 --- [http-nio-8080-exec-7] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2OTgxMX0.L3eIcP8I6oxZgH3uKprrngCu80Jj6u384Cd5IG65pjU

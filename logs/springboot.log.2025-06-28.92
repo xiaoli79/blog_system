@@ -1,0 +1,6 @@
+2025-06-28T17:06:37.206+08:00  INFO 8364 --- [http-nio-8080-exec-10] c.blog_system.controller.UserController  : 用户登录，用户名：admin，密码：admin
+2025-06-28T20:55:59.502+08:00  INFO 8364 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-28T20:56:00.493+08:00  INFO 8364 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-28T20:56:00.506+08:00  INFO 8364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-28T20:56:00.514+08:00  INFO 8364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-28T20:58:08.499+08:00  INFO 22780 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 22780 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

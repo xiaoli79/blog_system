@@ -1,0 +1,7 @@
+2025-06-29T15:41:56.593+08:00  INFO 2996 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ed07ee4
+2025-06-29T15:41:56.596+08:00  INFO 2996 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-29T15:41:56.765+08:00  INFO 2996 --- [http-nio-8080-exec-8] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T15:41:56.767+08:00  INFO 2996 --- [http-nio-8080-exec-9] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T15:41:56.767+08:00 ERROR 2996 --- [http-nio-8080-exec-8] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T15:41:56.768+08:00 ERROR 2996 --- [http-nio-8080-exec-9] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T15:43:57.352+08:00  INFO 2996 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

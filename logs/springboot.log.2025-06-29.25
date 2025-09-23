@@ -1,0 +1,7 @@
+2025-06-29T15:51:51.800+08:00  INFO 11000 --- [http-nio-8080-exec-10] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T15:51:51.805+08:00 ERROR 11000 --- [http-nio-8080-exec-10] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T15:52:16.128+08:00  INFO 11000 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-29T15:52:16.565+08:00  INFO 11000 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-29T15:55:03.804+08:00  INFO 2944 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 2944 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-29T15:55:03.810+08:00  INFO 2944 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-29T15:55:04.594+08:00  INFO 2944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)

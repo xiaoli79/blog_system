@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客编辑页</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/edit.css">
+    <link rel="stylesheet" href="blog-editormd/css/editormd.css" />
+
+</head>
+
+<body>
+    <div class="nav">
+        <img src="pic/logo2.jpg" alt="">
+        <span class="blog-title">我的博客系统</span>
+        <div class="space"></div>
+        <a class="nav-span" href="blog_list.html">主页</a>
+        <a class="nav-span" href="blog_edit.html">写博客</a>
+        <a class="nav-span" href="#" onclick="logout()">注销</a>
+    </div>
+    <div class="content-edit">
+        <div class="push">
+            <input type="text" name="" id="title">
+            <input type="button" value="发布文章" id="submit" onclick="submit()">
+        </div>
+        <!-- markdown 插件 html代码 -->
+        <div id="editor">
+            <textarea style="display:none;" id="content" name="content">##在这里写下一篇博客</textarea>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="blog-editormd/editormd.min.js"></script>
+    <script src="js/common.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            var editor = editormd("editor", {
+                width: "100%",
+                height: "550px",
+                path: "blog-editormd/lib/"
+            });
+        });
+
+        function submit() {
+            $.ajax({
+                type: "post",
+                url: "/blog/add",
+                // 需要自己强转一下文本类型
+                contentType: "application/json",
+
+                // 记得把他变成Json
+                data: JSON.stringify({
+                    title: $("#title").val(),
+                    content: $("#content").val()
+                }),
+                success: function (result) {
+                    if (result.code == "SUCCESS" && result.data == true) {
+                        //发表成功
+                        location.href = "blog_list.html";
+                    } else {
+                        //后端未对错误情况进行分析, 统一返回了false, 需要自己完善, 参考userController.login
+                        alert(result.errMsg);
+                    }
+                },
+                error: function (error) {
+                    if (error != null && error.status == 401) {
+                        location.href = "blog_login.html";
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

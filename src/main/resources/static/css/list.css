@@ -1,0 +1,26 @@
+.right>.blog>.title{
+    text-align: center;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.right>.blog>.date{
+    text-align: center;
+    color: green;
+    margin: 10px;
+}
+.right>.blog>.desc{
+    text-indent: 2em;
+}
+.right>.blog>.detail{
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px auto 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    /* margin-bottom: 20px; */
+}

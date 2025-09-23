@@ -1,0 +1,6 @@
+2025-06-26T23:58:29.391+08:00  INFO 3388 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-26T23:58:29.863+08:00  INFO 3388 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-26T23:58:29.866+08:00  INFO 3388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-26T23:58:29.871+08:00  INFO 3388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-26T23:58:33.243+08:00  INFO 5136 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 5136 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-26T23:58:33.251+08:00  INFO 5136 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"

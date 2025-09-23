@@ -1,0 +1,7 @@
+2025-06-28T21:23:00.101+08:00  INFO 23660 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-28T21:23:00.104+08:00  INFO 23660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-28T21:23:00.105+08:00  INFO 23660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-28T21:23:00.289+08:00  INFO 23660 --- [http-nio-8080-exec-2] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-28T21:23:00.320+08:00 ERROR 23660 --- [http-nio-8080-exec-2] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-28T22:12:35.445+08:00  INFO 23660 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-28T22:12:35.909+08:00  INFO 23660 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

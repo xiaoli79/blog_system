@@ -1,0 +1,6 @@
+2025-06-29T15:44:24.621+08:00 ERROR 13592 --- [http-nio-8080-exec-7] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T15:45:24.783+08:00  INFO 13592 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-29T15:45:25.238+08:00  INFO 13592 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-29T15:45:25.241+08:00  INFO 13592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-29T15:45:25.248+08:00  INFO 13592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-29T15:45:27.655+08:00  INFO 16032 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 16032 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

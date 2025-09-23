@@ -1,0 +1,6 @@
+2025-06-30T15:04:47.474+08:00 ERROR 21512 --- [http-nio-8080-exec-5] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T15:12:15.158+08:00  INFO 21512 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-30T15:12:15.997+08:00  INFO 21512 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-30T15:12:16.000+08:00  INFO 21512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-30T15:12:16.009+08:00  INFO 21512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-30T15:18:02.740+08:00  INFO 10256 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 10256 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

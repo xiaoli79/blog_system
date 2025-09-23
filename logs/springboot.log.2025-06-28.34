@@ -1,0 +1,6 @@
+2025-06-28T11:08:15.847+08:00  INFO 22284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-28T11:08:15.855+08:00  INFO 22284 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.8 seconds (process running for 2.323)
+2025-06-28T11:08:27.924+08:00  INFO 22284 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-28T11:08:28.383+08:00  INFO 22284 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-28T11:08:30.791+08:00  INFO 32552 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 32552 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-28T11:08:30.795+08:00  INFO 32552 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"

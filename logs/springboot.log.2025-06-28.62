@@ -1,0 +1,7 @@
+2025-06-28T16:08:54.638+08:00  INFO 8332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-28T16:08:54.645+08:00  INFO 8332 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.542 seconds (process running for 2.083)
+2025-06-28T16:09:43.593+08:00  INFO 8332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-28T16:09:43.593+08:00  INFO 8332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-28T16:09:43.595+08:00  INFO 8332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-28T16:09:43.638+08:00  INFO 8332 --- [http-nio-8080-exec-1] c.blog_system.controller.UserController  : 用户登录，用户名：admin，密码：ad1min
+2025-06-28T16:09:43.656+08:00  INFO 8332 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...

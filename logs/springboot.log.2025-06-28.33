@@ -1,0 +1,7 @@
+2025-06-28T11:08:14.596+08:00  INFO 22284 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 22284 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-28T11:08:14.602+08:00  INFO 22284 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-28T11:08:15.346+08:00  INFO 22284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-28T11:08:15.357+08:00  INFO 22284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-28T11:08:15.357+08:00  INFO 22284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-28T11:08:15.399+08:00  INFO 22284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-28T11:08:15.399+08:00  INFO 22284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 757 ms

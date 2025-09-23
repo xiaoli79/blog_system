@@ -1,0 +1,6 @@
+2025-06-29T18:38:05.296+08:00  INFO 6560 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-29T18:38:05.521+08:00  INFO 6560 --- [http-nio-8080-exec-10] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTE5NzA4NX0.W_pZ55kVAi72Je-QrcOoCNFn9X2N8etqTS8N0gc5-KM
+2025-06-29T18:38:05.521+08:00  INFO 6560 --- [http-nio-8080-exec-9] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTE5NzA4NX0.W_pZ55kVAi72Je-QrcOoCNFn9X2N8etqTS8N0gc5-KM
+2025-06-29T18:38:05.533+08:00  INFO 6560 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-29T18:38:05.535+08:00 ERROR 6560 --- [http-nio-8080-exec-1] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-29T18:38:05.555+08:00  INFO 6560 --- [http-nio-8080-exec-10] c.blog_system.controller.UserController  : 获取登录用户信息

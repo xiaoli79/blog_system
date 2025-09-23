@@ -1,0 +1,7 @@
+2025-06-28T17:06:16.287+08:00  INFO 8364 --- [http-nio-8080-exec-6] c.blog_system.controller.UserController  : 用户登录，用户名：ad，密码：da
+2025-06-28T17:06:16.329+08:00  INFO 8364 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-28T17:06:16.445+08:00  INFO 8364 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c10629e
+2025-06-28T17:06:16.446+08:00  INFO 8364 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-28T17:06:16.488+08:00  INFO 8364 --- [http-nio-8080-exec-6] c.blog_system.controller.UserController  : 用户不存在
+2025-06-28T17:06:24.011+08:00  INFO 8364 --- [http-nio-8080-exec-5] c.blog_system.controller.UserController  : 用户登录，用户名：admin，密码：damin
+2025-06-28T17:06:29.807+08:00  INFO 8364 --- [http-nio-8080-exec-4] c.blog_system.controller.UserController  : 用户登录，用户名：admin，密码：admin

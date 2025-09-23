@@ -1,0 +1,6 @@
+2025-06-29T20:24:16.607+08:00  INFO 33804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-29T20:24:16.608+08:00  INFO 33804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-29T20:24:16.609+08:00  INFO 33804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-29T20:24:16.628+08:00  INFO 33804 --- [http-nio-8080-exec-1] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTE5NjA3NX0.Cj_9ONg8f188BlTuojQSmXbwNnutiTgjjdOPtDlURHM
+2025-06-29T20:24:16.678+08:00 ERROR 33804 --- [http-nio-8080-exec-1] com.blog_system.utils.JwtUtils           : 解析token失败，token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTE5NjA3NX0.Cj_9ONg8f188BlTuojQSmXbwNnutiTgjjdOPtDlURHM
+2025-06-29T20:24:22.228+08:00  INFO 33804 --- [http-nio-8080-exec-4] c.b.interceptor.LogInInterceptor         : 从header中获取token:null

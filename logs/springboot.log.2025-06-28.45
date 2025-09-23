@@ -1,0 +1,7 @@
+2025-06-28T11:48:19.975+08:00  INFO 36028 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-28T11:48:20.502+08:00  INFO 36028 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-28T11:48:24.047+08:00  INFO 24784 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 24784 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-28T11:48:24.050+08:00  INFO 24784 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-28T11:48:24.769+08:00  INFO 24784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-28T11:48:24.780+08:00  INFO 24784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-28T11:48:24.780+08:00  INFO 24784 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]

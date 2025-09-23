@@ -1,0 +1,6 @@
+2025-06-30T15:22:46.463+08:00  INFO 27012 --- [http-nio-8080-exec-3] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2OTgxMX0.L3eIcP8I6oxZgH3uKprrngCu80Jj6u384Cd5IG65pjU
+2025-06-30T15:22:46.463+08:00  INFO 27012 --- [http-nio-8080-exec-2] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2OTgxMX0.L3eIcP8I6oxZgH3uKprrngCu80Jj6u384Cd5IG65pjU
+2025-06-30T15:22:46.498+08:00  INFO 27012 --- [http-nio-8080-exec-4] c.b.interceptor.LogInInterceptor         : 从header中获取token:null
+2025-06-30T15:22:46.500+08:00 ERROR 27012 --- [http-nio-8080-exec-4] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T15:22:46.541+08:00  INFO 27012 --- [http-nio-8080-exec-3] c.blog_system.controller.UserController  : 根据博客ID获取作者ID
+2025-06-30T15:22:46.554+08:00  INFO 27012 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...

@@ -1,0 +1,7 @@
+2025-06-28T10:51:27.297+08:00  INFO 17476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-28T10:51:27.306+08:00  INFO 17476 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.722 seconds (process running for 2.341)
+2025-06-28T10:51:33.665+08:00  INFO 17476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-28T10:51:33.665+08:00  INFO 17476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-28T10:51:33.666+08:00  INFO 17476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-28T10:51:33.759+08:00  INFO 17476 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-28T10:51:33.904+08:00  INFO 17476 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f7f153b

@@ -1,0 +1,7 @@
+2025-06-26T23:55:13.693+08:00  INFO 17700 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-26T23:55:13.745+08:00  INFO 17700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-26T23:55:13.746+08:00  INFO 17700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2025-06-26T23:55:14.156+08:00  INFO 17700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-26T23:55:14.162+08:00  INFO 17700 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.587 seconds (process running for 2.079)
+2025-06-26T23:55:28.028+08:00  INFO 17700 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-26T23:55:28.028+08:00  INFO 17700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'

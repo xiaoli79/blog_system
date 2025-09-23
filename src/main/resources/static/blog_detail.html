@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情页</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/detail.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <img src="pic/logo2.jpg" alt="">
+        <span class="blog-title">我的博客系统</span>
+        <div class="space"></div>
+        <a class="nav-span" href="blog_list.html">主页</a>
+        <a class="nav-span" href="blog_edit.html">写博客</a>
+        <a class="nav-span" href="#" onclick="logout()">注销</a>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="card">
+                <img src="pic/doge.jpg" alt="">
+                <h3>比特汤老师</h3>
+                <a href="#">GitHub 地址</a>
+                <div class="row">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="row">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <div class="title">我的第一篇博客</div>
+                <div class="date">2021-06-02</div>
+                <div class="detail">
+                </div>
+                <div class="operating">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 引入 editor.md 的依赖 -->
+    <link rel="stylesheet" href="blog-editormd/css/editormd.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="blog-editormd/lib/marked.min.js"></script>
+    <script src="blog-editormd/lib/prettify.min.js"></script>
+    <script src="blog-editormd/editormd.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+
+        function deleteBlog(blogId) {
+            if(confirm("确认删除？")){
+                $.ajax({
+                    type:"post",
+                    url: "/blog/delete" + location.search,
+                    success: function (result) {
+                        if(result.code == "SUCCESS" && result.data){
+                            location.href = "blog_list.html";
+                        }else{
+                            alert(result.errMsg);
+                        }
+                    }
+                });
+            }
+        }
+        $.ajax({
+            type: "get",
+            url: "/blog/getBlogDetail" + location.search,
+            success: function (result) {
+                if (result.code == "SUCCESS") {
+                    //填充页面
+                    var blog = result.data;
+                    $(".content .title").text(blog.title);
+                    $(".content .date").text(blog.createTime);
+                    $(".content .detail").text(blog.content);
+                    editormd.markdownToHTML("detail", {
+                        markdown: blog.content
+                    });
+                    //判断是否显示编辑/删除按钮
+                    console.log(blog.loginUser)
+                    if (blog.loginUser) {
+                        var html = "";
+                        html += '<button onclick="window.location.href=\'blog_update.html?blogId=' + blog.id + '\'">编辑</button>';
+                        html += '<button onclick="deleteBlog(' + blog.id + ')">删除</button>';
+                        $(".content .operating").html(html);
+                        console.log(66666666666666666);
+                    }
+                }
+            },
+            error: function (error) {
+                if (error != null && error.status == 401) {
+                    location.href = "blog_login.html";
+                }
+            }
+        });;
+
+        var url = "/user/getAuthorInfo" + location.search;
+        getUserInfo(url);
+
+    </script>
+</body>
+
+</html>

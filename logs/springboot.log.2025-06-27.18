@@ -1,0 +1,7 @@
+2025-06-27T21:26:34.515+08:00  INFO 9460 --- [main] c.blog_system.mapper.UserInfoMapperTest  : The following 1 profile is active: "dev"
+2025-06-27T21:26:36.340+08:00  INFO 9460 --- [main] c.blog_system.mapper.UserInfoMapperTest  : Started UserInfoMapperTest in 2.281 seconds (process running for 3.425)
+2025-06-27T21:26:37.766+08:00  INFO 9460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-27T21:26:37.979+08:00  INFO 9460 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67a6a2d0
+2025-06-27T21:26:37.983+08:00  INFO 9460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-27T21:26:38.094+08:00  INFO 9460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-27T21:26:38.119+08:00  INFO 9460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

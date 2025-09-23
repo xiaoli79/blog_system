@@ -1,0 +1,6 @@
+2025-06-30T12:17:48.837+08:00  INFO 3760 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-30T12:17:48.839+08:00  INFO 3760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-30T12:17:48.840+08:00  INFO 3760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-30T12:17:48.922+08:00  INFO 3760 --- [http-nio-8080-exec-4] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MDU5Nn0.BZd8F_mXNazqmBYTIPzZ1Oes3bTc-0VbcM0GovcaNxs
+2025-06-30T12:17:48.922+08:00  INFO 3760 --- [http-nio-8080-exec-3] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MDU5Nn0.BZd8F_mXNazqmBYTIPzZ1Oes3bTc-0VbcM0GovcaNxs
+2025-06-30T12:17:48.931+08:00  INFO 3760 --- [http-nio-8080-exec-2] c.b.interceptor.LogInInterceptor         : 从header中获取token:null

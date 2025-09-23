@@ -1,0 +1,8 @@
+2025-06-30T14:31:37.735+08:00  INFO 5952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 809 ms
+2025-06-30T14:31:38.167+08:00  INFO 5952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-30T14:31:38.173+08:00  INFO 5952 --- [main] com.blog_system.BlogSystemApplication    : Started BlogSystemApplication in 1.689 seconds (process running for 2.203)
+2025-06-30T14:31:46.047+08:00  INFO 5952 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-30T14:31:46.047+08:00  INFO 5952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-30T14:31:46.053+08:00  INFO 5952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-30T14:31:46.230+08:00  INFO 5952 --- [http-nio-8080-exec-6] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MTEwNn0.3QuFTM_B_lUh5xmebVW_03cvNYHcih9EuPKu6qYxZXw
+2025-06-30T14:31:46.230+08:00  INFO 5952 --- [http-nio-8080-exec-2] c.b.interceptor.LogInInterceptor         : 从header中获取token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwidXNlck5hbWUiOiJhZG1pbiIsImV4cCI6MTc1MTI2MTEwNn0.3QuFTM_B_lUh5xmebVW_03cvNYHcih9EuPKu6qYxZXw

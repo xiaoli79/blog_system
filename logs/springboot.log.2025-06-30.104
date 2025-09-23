@@ -1,0 +1,6 @@
+2025-06-30T14:34:14.915+08:00 ERROR 4040 --- [http-nio-8080-exec-2] com.blog_system.utils.JwtUtils           : 解析token失败，token：null
+2025-06-30T14:36:29.048+08:00  INFO 4040 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-30T14:36:29.504+08:00  INFO 4040 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-30T14:36:29.508+08:00  INFO 4040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-30T14:36:29.512+08:00  INFO 4040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-30T14:36:32.360+08:00  INFO 16276 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 16276 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)

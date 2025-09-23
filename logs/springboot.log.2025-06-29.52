@@ -1,0 +1,7 @@
+2025-06-29T18:33:09.001+08:00  INFO 7276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-29T18:36:56.664+08:00  INFO 33840 --- [main] com.blog_system.BlogSystemApplication    : Starting BlogSystemApplication using Java 17.0.12 with PID 33840 (E:\Javauploaded\Spring\blog_system\target\classes started by HP in E:\Javauploaded\Spring\blog_system)
+2025-06-29T18:36:56.666+08:00  INFO 33840 --- [main] com.blog_system.BlogSystemApplication    : The following 1 profile is active: "dev"
+2025-06-29T18:36:57.425+08:00  INFO 33840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-29T18:36:57.435+08:00  INFO 33840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-29T18:36:57.436+08:00  INFO 33840 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-29T18:36:57.483+08:00  INFO 33840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
